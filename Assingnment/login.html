@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+   <style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #680D42;
+background: linear-gradient(to bottom, #a8397c 0%, #a10a56 56%);
+
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-box {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-box h2 {
+    color:#a10a56;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: inline;
+    margin-bottom: 2px;
+}
+.input-group:hover{
+    color: #AB4E84;
+
+
+}
+
+.input-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 3px;
+}
+.input-group input:hover{
+    color: #AB4E84;
+    border-color: #AB4E84;
+}
+
+.forgot-password {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.forgot-password a {
+    padding-left: 1px;
+    color: #333;
+    text-decoration: none;
+}
+.forgot-password a:hover{
+    color: #AB4E84;
+}
+.button-group  button{
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 40px;
+    width: 75%;
+    padding: 15px 10px;
+    background: linear-gradient(to bottom, #a8397c 0%, #a10a56 56%);
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+
+}
+
+.button-group button:hover {
+    background: #AB4E84;
+background: linear-gradient(to bottom, #AB4E84 0%, #E53A90 56%);
+}
+
+
+
+
+.close-button {
+    display: block;
+    font-weight: bolder;
+    width: 70%;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 15px 10px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;}
+.close-button:hover {
+    background-color: #999;
+}
+
+
+
+.register-link {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.register-link a {
+    color: #AB4E84;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+}
+
+   </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            
+            <form action="#" method="post">
+
+                <div class="input-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+                <div class="button-group">
+                    <button type="submit">Login</button><br>
+                    <a href="project.html" class="close-button" > Close</a>
+                  </div>
+            </form>
+            <br>
+            <div class="register-link">
+                <p>Not a member? <a href="register.html">Register</a></p>
+            </div>
+        </div>
+    </div>
+
+    
+    </script>
+</body>
+</html>
